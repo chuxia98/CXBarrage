@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CXBarrage"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A Barrage View"
   s.description  = 'A barrage view to fire barrage in view'
   s.homepage     = "https://github.com/chuxia98/CXBarrage.git"
