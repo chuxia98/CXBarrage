@@ -13,6 +13,9 @@
 		B996A9D41FF0A8A100943018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B996A9D31FF0A8A100943018 /* Assets.xcassets */; };
 		B996A9D71FF0A8A100943018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B996A9D51FF0A8A100943018 /* LaunchScreen.storyboard */; };
 		B996A9DA1FF0A8A100943018 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B996A9D91FF0A8A100943018 /* main.m */; };
+		B996A9E31FF0A8C300943018 /* CXBarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B996A9E21FF0A8C300943018 /* CXBarrageView.m */; };
+		B996A9E71FF0B18100943018 /* BarrageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B996A9E61FF0B18100943018 /* BarrageModel.m */; };
+		B996A9EA1FF0BA0400943018 /* CALayer+Animate.m in Sources */ = {isa = PBXBuildFile; fileRef = B996A9E91FF0BA0400943018 /* CALayer+Animate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,13 @@
 		B996A9D61FF0A8A100943018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B996A9D81FF0A8A100943018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B996A9D91FF0A8A100943018 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B996A9E11FF0A8C300943018 /* CXBarrageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXBarrageView.h; sourceTree = "<group>"; };
+		B996A9E21FF0A8C300943018 /* CXBarrageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXBarrageView.m; sourceTree = "<group>"; };
+		B996A9E41FF0A9F100943018 /* CXBarrageModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXBarrageModelProtocol.h; sourceTree = "<group>"; };
+		B996A9E51FF0B18100943018 /* BarrageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarrageModel.h; sourceTree = "<group>"; };
+		B996A9E61FF0B18100943018 /* BarrageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarrageModel.m; sourceTree = "<group>"; };
+		B996A9E81FF0BA0400943018 /* CALayer+Animate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+Animate.h"; sourceTree = "<group>"; };
+		B996A9E91FF0BA0400943018 /* CALayer+Animate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Animate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +68,13 @@
 		B996A9C91FF0A8A100943018 /* Barrage */ = {
 			isa = PBXGroup;
 			children = (
+				B996A9E01FF0A8B100943018 /* CXBarrage */,
 				B996A9CA1FF0A8A100943018 /* AppDelegate.h */,
 				B996A9CB1FF0A8A100943018 /* AppDelegate.m */,
 				B996A9CD1FF0A8A100943018 /* ViewController.h */,
 				B996A9CE1FF0A8A100943018 /* ViewController.m */,
+				B996A9E51FF0B18100943018 /* BarrageModel.h */,
+				B996A9E61FF0B18100943018 /* BarrageModel.m */,
 				B996A9D01FF0A8A100943018 /* Main.storyboard */,
 				B996A9D31FF0A8A100943018 /* Assets.xcassets */,
 				B996A9D51FF0A8A100943018 /* LaunchScreen.storyboard */,
@@ -69,6 +82,18 @@
 				B996A9D91FF0A8A100943018 /* main.m */,
 			);
 			path = Barrage;
+			sourceTree = "<group>";
+		};
+		B996A9E01FF0A8B100943018 /* CXBarrage */ = {
+			isa = PBXGroup;
+			children = (
+				B996A9E11FF0A8C300943018 /* CXBarrageView.h */,
+				B996A9E21FF0A8C300943018 /* CXBarrageView.m */,
+				B996A9E81FF0BA0400943018 /* CALayer+Animate.h */,
+				B996A9E91FF0BA0400943018 /* CALayer+Animate.m */,
+				B996A9E41FF0A9F100943018 /* CXBarrageModelProtocol.h */,
+			);
+			path = CXBarrage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B996A9E71FF0B18100943018 /* BarrageModel.m in Sources */,
+				B996A9EA1FF0BA0400943018 /* CALayer+Animate.m in Sources */,
 				B996A9CF1FF0A8A100943018 /* ViewController.m in Sources */,
 				B996A9DA1FF0A8A100943018 /* main.m in Sources */,
 				B996A9CC1FF0A8A100943018 /* AppDelegate.m in Sources */,
+				B996A9E31FF0A8C300943018 /* CXBarrageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
