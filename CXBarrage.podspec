@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.description  = 'A barrage view to fire barrage in view'
   s.homepage     = "https://github.com/chuxia98/CXBarrage.git"
   s.license      = "MIT"
+  s.author       = { "chuxia" => "875390793@qq.com" }
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.platform     = :ios, "6.0"
   s.source       = { :git => "https://github.com/chuxia98/CXBarrage.git", :tag => "#{s.version}" }
