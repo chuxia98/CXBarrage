@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.platform     = :ios, "6.0"
   s.source       = { :git => "https://github.com/chuxia98/CXBarrage.git", :tag => "#{s.version}" }
-  s.source_files  = "Barrage", "Barrage/Barrage/CXBarrage/*.{h,m}"
+  s.source_files  = "Barrage/CXBarrage/*.{h,m}"
 
 end
