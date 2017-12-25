@@ -1,9 +1,9 @@
-# CXPageView
+# CXBarrage
 
-[![CI Status](http://img.shields.io/travis/chuxia98/CXPageView.svg?style=flat)](https://travis-ci.org/chuxia98/CXPageView)
-[![Version](https://img.shields.io/cocoapods/v/CXPageView.svg?style=flat)](http://cocoapods.org/pods/CXPageView)
-[![License](https://img.shields.io/cocoapods/l/CXPageView.svg?style=flat)](http://cocoapods.org/pods/CXPageView)
-[![Platform](https://img.shields.io/cocoapods/p/CXPageView.svg?style=flat)](http://cocoapods.org/pods/CXPageView)
+[![CI Status](http://img.shields.io/travis/chuxia98/CXPageView.svg?style=flat)](https://travis-ci.org/chuxia98/CXBarrage)
+[![Version](https://img.shields.io/cocoapods/v/CXPageView.svg?style=flat)](http://cocoapods.org/pods/CXBarrage)
+[![License](https://img.shields.io/cocoapods/l/CXPageView.svg?style=flat)](http://cocoapods.org/pods/CXBarrage)
+[![Platform](https://img.shields.io/cocoapods/p/CXPageView.svg?style=flat)](http://cocoapods.org/pods/CXBarrage)
 
 ## Example
 
@@ -17,7 +17,7 @@ CXPageView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "CXPageView"
+pod "CXBarrage"
 ```
 
 ## Author
